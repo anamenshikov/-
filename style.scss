@@ -1,0 +1,179 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  color: #3B424F;
+}
+
+.header-contact {
+  height: 32px;
+  background-color: #D6E0EF;
+  display: flex;
+  justify-content: flex-end;
+  font-family: 'FiraGO-Regular', Helvetica, Arial, serif;
+  font-size: 11px;
+}
+
+  @media (min-width: 768px) {
+    .header-contact {
+      height: 52px;
+      font-size: 20px;
+    }
+  }
+
+.header-contact span {
+    padding-left: 5px;
+  }
+
+  @media (min-width: 768px) {
+    .header-contact span {
+      padding-left: 10px;
+    }
+  }
+
+.fa-envelope {
+  padding: 12px 32px 0 0;
+}
+
+  @media (min-width: 768px) {
+    .fa-envelope {
+      padding: 14px 110px 0 0;
+    }
+  }
+
+.hero-section {
+  height: 250px;
+  background-image: url("./images/header.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  position: relative;
+}
+
+  @media (min-width: 768px) {
+    .hero-section {
+      height: 415px;
+    }
+  }
+
+.hero-overlay {
+  background-color: white;
+  opacity: 0.35;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.hero-text h2 {
+  margin: 0;
+  font-size: 20px;
+  width: 207px;
+  margin-bottom: 60px;
+}
+
+  @media (min-width: 768px) {
+    .hero-text h2 {
+      padding: 110px 0 0 110px;
+      width: 300px;
+      font-size: 36px;
+    }
+  }
+
+.hero-price-btn {
+  text-decoration: none;
+  color: white;
+  background: #1175BB;
+  text-align: center;
+  border-radius: 35px;
+  padding: 14px 20px;
+  font-size: 17px;
+}
+
+  @media (min-width: 768px) {
+    .hero-price-btn {
+      width: 220px;
+      height: 60px;
+      padding: 18px 5px;
+      margin: 25px 0 0 110px;
+      font-size: 20px;
+    }
+  }
+
+.container {
+  padding: 32px 32px 0 32px;
+}
+
+  @media (min-width:768px) {
+    .container {
+      padding: 110px;
+    }
+  }
+
+.service-box {
+  display: flex;
+  margin-bottom: 32px;
+}
+
+.service-box img {
+  height: 78px;
+  width: 78px;
+}
+
+.service-box-title {
+  padding-left: 25px;
+}
+
+.service-box h3 {
+  color: #1175BB;
+  font-size: 16px;
+  margin: 0;
+  width: 138px;
+}
+
+  @media (min-width: 768px) {
+    .service-box h3 {
+      font-size: 20px;
+    }
+  }
+
+.service-box p {
+  font-size: 13px;
+  margin: 0;
+}
+
+  @media (min-width: 768px) {
+    .service-box p {
+      font-size: 16px;
+    }
+  }
+
+.instruction-title h3 {
+  color: #1b77b9;
+  font-size: 17px;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+}
+
+footer {
+  height: 32px;
+  background-color: #1175BB;
+  color: white;
+  display: flex;
+  justify-content: center;
+  padding-top: 7px;
+}
+
+@media (min-width: 768px) {
+  footer {
+    height: 52px;
+    font-size: 18px;
+    padding-top: 14px;
+  }
+}
