@@ -2,18 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0da57ce6-885c-4502-bb99-99859e2a8c36" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/fonts/FiraGO-Light.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/fonts/FiraGO-Regular.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/fonts/FiraGO-SemiBold.otf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/header.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/header.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/logo1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/logo2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/logo3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/logo4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/logo5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/playbtn.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/video.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/video.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/style.css.map" afterDir="false" />
@@ -30,11 +19,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="651">
-              <caret line="65" column="33" selection-start-line="65" selection-start-column="33" selection-end-line="65" selection-end-column="33" />
+            <state relative-caret-position="636">
+              <caret line="66" column="68" selection-start-line="66" selection-start-column="68" selection-end-line="66" selection-end-column="68" />
               <folding>
                 <element signature="e#2028#2034#0" expanded="true" />
               </folding>
@@ -42,11 +31,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/style.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="146" selection-start-line="146" selection-end-line="146" selection-end-column="28" />
+            <state relative-caret-position="4200">
+              <caret line="280" column="22" lean-forward="true" selection-start-line="280" selection-start-column="22" selection-end-line="280" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -54,8 +43,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1815">
-              <caret line="121" selection-start-line="121" selection-end-line="121" />
+            <state relative-caret-position="1605">
+              <caret line="115" selection-start-line="115" selection-end-line="115" />
             </state>
           </provider>
         </entry>
@@ -74,8 +63,13 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>logo1</find>
-      <find>container</find>
       <find>box-sh</find>
+      <find>services</find>
+      <find>h3</find>
+      <find>30px</find>
+      <find>container</find>
+      <find>margin</find>
+      <find>width</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -177,23 +171,22 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1610526568355</updated>
-      <workItem from="1610526569933" duration="22860000" />
+      <workItem from="1610526569933" duration="27213000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22860000" />
+    <option name="totallyTimeSpent" value="27213000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24954791" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" weight="0.32987553" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.32987553" />
+      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.23029046" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32987553" />
@@ -219,25 +212,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1815">
-          <caret line="121" selection-start-line="121" selection-end-line="121" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="651">
-          <caret line="65" column="33" selection-start-line="65" selection-start-column="33" selection-end-line="65" selection-end-column="33" />
-          <folding>
-            <element signature="e#2028#2034#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="1605">
+          <caret line="115" selection-start-line="115" selection-end-line="115" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/style.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="146" selection-start-line="146" selection-end-line="146" selection-end-column="28" />
+        <state relative-caret-position="4200">
+          <caret line="280" column="22" lean-forward="true" selection-start-line="280" selection-start-column="22" selection-end-line="280" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="636">
+          <caret line="66" column="68" selection-start-line="66" selection-start-column="68" selection-end-line="66" selection-end-column="68" />
+          <folding>
+            <element signature="e#2028#2034#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
