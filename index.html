@@ -22,7 +22,9 @@
                 <div class="hero-text">
                     <h2>გადაზიდვების ავტომატიცაზიის სერვისი</h2>
                 </div>
-                <a href="#" class="hero-price-btn">მოითხოვე ფასი</a>
+                <a href="#" onclick="openModal()" class="hero-price-btn">
+                    მოითხოვე ფასი
+                </a>
             </div>
         </div>
         <div class="services-section">
@@ -61,7 +63,7 @@
             <div class="container">
                 <div class="instruction-title">
                     <img src="assets/images/logo5.svg">
-                    <h3>სერვისის გამოყენების ინსტრუქცია:</h3>
+                    <h3>სერვისის გამოყენების ინსტრუქცია</h3>
                 </div>
                 <div class="instruction-video">
                     <img src="assets/images/video.png" alt="video"/>
@@ -70,6 +72,65 @@
             </div>
         </div>
     </main>
+    <div class="modal" id="modal">
+        <div class="modal__container" id="modal_container">
+            <i class="form-input__icon closebtn-icon"
+               onclick="closeModal()"></i>
+            <div id="form">
+                <h3>შეავსე ველები:</h3>
+                <div class="form-input">
+                    <i class="form-input__icon user-icon"></i>
+                    <input type="text" name="firstname" placeholder="სახელი გვარი">
+                </div>
+                <div class="form-input">
+                    <i class="form-input__icon suitcase-icon"></i>
+                    <input type="text" name="company" placeholder="კომპანია">
+                </div>
+                <div class="form-input">
+                    <i class="form-input__icon email-icon"></i>
+                    <input type="email" name="email" placeholder="ელ. ფოსტა">
+                </div>
+                <div class="form-input">
+                    <i class="form-input__icon telephone-icon"></i>
+                    <input type="text" name="telephone" placeholder="ტელეფონი">
+                </div>
+                <div class="form-button">
+                    <input onclick="notification()"
+                           type="submit"
+                           value="გაგზავნა">
+                </div>
+            </div>
+            <div id="notification">
+                <div class="processing">
+                    <i class="notif-icon"></i>
+                </div>
+                <div class="request-sent">
+                    <i class="tick-icon"></i>
+                    <span>მოთხოვნა გაგზავნილია!</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function openModal() {
+            document.getElementById('modal').style.display = 'block';
+            document.getElementById('form').style.display = 'block';
+        }
+
+        function closeModal() {
+            document.getElementById('modal').style.display = 'none';
+            document.getElementById('notification').style.display = 'none';
+            document.getElementById('modal_container').classList.remove('modal__container--white')
+        }
+
+        function notification() {
+            document.getElementById('notification').style.display = 'block';
+            document.getElementById('form').style.display = 'none';
+            document.getElementById('modal_container').classList.add('modal__container--white')
+        }
+    </script>
+
     <footer>
         &copy; 2021
     </footer>

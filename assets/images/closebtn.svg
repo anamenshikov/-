@@ -1,0 +1,6 @@
+<svg id="Component_3_1" data-name="Component 3 – 1" xmlns="http://www.w3.org/2000/svg" width="30" height="29" viewBox="0 0 30 29">
+  <g id="Group_369" data-name="Group 369" transform="translate(-0.119 -0.36)">
+    <ellipse id="Ellipse_3" data-name="Ellipse 3" cx="15" cy="14.5" rx="15" ry="14.5" transform="translate(0.119 0.36)" fill="#1175bb"/>
+    <path id="close" d="M9.6,8.251l6.319-6.32A1.051,1.051,0,1,0,14.434.444l-6.32,6.32L1.8.444A1.051,1.051,0,0,0,.308,1.931l6.319,6.32L.308,14.57A1.051,1.051,0,1,0,1.8,16.057l6.319-6.32,6.32,6.32a1.051,1.051,0,1,0,1.487-1.487Zm0,0" transform="translate(7.003 6.585)" fill="#fff"/>
+  </g>
+</svg>
