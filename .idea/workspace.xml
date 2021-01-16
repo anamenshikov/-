@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0da57ce6-885c-4502-bb99-99859e2a8c36" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/style.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/style.scss" afterDir="false" />
@@ -18,7 +17,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="447">
@@ -27,11 +26,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/style.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="496" column="17" lean-forward="true" selection-start-line="496" selection-start-column="17" selection-end-line="496" selection-end-column="17" />
+            <state relative-caret-position="472">
+              <caret line="313" column="31" selection-start-line="313" selection-start-column="31" selection-end-line="313" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -40,7 +39,7 @@
         <entry file="file://$PROJECT_DIR$/style.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="7585">
-              <caret line="534" column="37" selection-start-line="534" selection-start-column="37" selection-end-line="534" selection-end-column="37" />
+              <caret line="535" column="37" selection-start-line="535" selection-start-column="37" selection-end-line="535" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -86,8 +85,8 @@
       <find>form-gr</find>
       <find>icon-</find>
       <find>form-input</find>
-      <find>git p</find>
       <find>form-b</find>
+      <find>git p</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -99,8 +98,8 @@
         <option value="$PROJECT_DIR$/style.css" />
         <option value="$PROJECT_DIR$/style.scss.css" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/style.scss" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/style.scss" />
       </list>
     </option>
   </component>
@@ -191,12 +190,12 @@
       <updated>1610526568355</updated>
       <workItem from="1610526569933" duration="27449000" />
       <workItem from="1610706040807" duration="8028000" />
-      <workItem from="1610791726969" duration="11834000" />
+      <workItem from="1610791726969" duration="12057000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47311000" />
+    <option name="totallyTimeSpent" value="47534000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -214,7 +213,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32987553" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.33091286" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.33091286" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -236,7 +235,7 @@
     <entry file="file://$PROJECT_DIR$/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="7585">
-          <caret line="534" column="37" selection-start-line="534" selection-start-column="37" selection-end-line="534" selection-end-column="37" />
+          <caret line="535" column="37" selection-start-line="535" selection-start-column="37" selection-end-line="535" selection-end-column="37" />
         </state>
       </provider>
     </entry>
@@ -247,17 +246,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/style.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="496" column="17" lean-forward="true" selection-start-line="496" selection-start-column="17" selection-end-line="496" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="447">
           <caret line="77" column="65" selection-start-line="77" selection-start-column="65" selection-end-line="77" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="472">
+          <caret line="313" column="31" selection-start-line="313" selection-start-column="31" selection-end-line="313" selection-end-column="31" />
         </state>
       </provider>
     </entry>

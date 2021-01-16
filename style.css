@@ -308,6 +308,7 @@ footer {
   z-index: 9999;
   top: 0;
   background: #ffffffcf;
+  overflow: auto;
 }
 .modal__container {
   width: 310px;

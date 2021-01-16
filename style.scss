@@ -306,6 +306,7 @@ footer {
   z-index: 9999;
   top: 0;
   background: #ffffffcf;
+  overflow: auto;
 
   &__container {
     width: 310px;
