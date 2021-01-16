@@ -23,47 +23,7 @@ body {
   color: #3B424F;
 }
 
-.header-contact {
-  height: 32px;
-  background-color: #D6E0EF;
-  display: flex;
-  justify-content: flex-end;
-}
-@media (min-width: 768px) {
-  .header-contact {
-    height: 60px;
-  }
-}
-
-.header-contact span {
-  padding-left: 5px;
-  margin-top: 10px;
-  margin-right: 32px;
-  font-size: 11px;
-}
-@media (min-width: 768px) {
-  .header-contact span {
-    padding-left: 10px;
-    font-size: 20px;
-    margin-top: 20px;
-    margin-right: 120px;
-  }
-}
-
-.header-contact img {
-  width: 12px;
-  height: 9px;
-  margin-top: 12px;
-}
-@media (min-width: 768px) {
-  .header-contact img {
-    width: 20px;
-    height: 15px;
-    margin-top: 24px;
-  }
-}
-
-.hero-section {
+.hero {
   height: 250px;
   background-image: url("assets/images/header.png");
   background-size: cover;
@@ -72,13 +32,12 @@ body {
   position: relative;
 }
 @media (min-width: 768px) {
-  .hero-section {
+  .hero {
     height: 478px;
     padding: 0 30px;
   }
 }
-
-.hero-overlay {
+.hero__overlay {
   background-color: white;
   opacity: 0.35;
   position: absolute;
@@ -87,29 +46,27 @@ body {
   width: 100%;
   height: 100%;
 }
-
-.hero-text {
+.hero__text {
   padding-top: 32px;
 }
-.hero-text h2 {
+@media (min-width: 768px) {
+  .hero__text {
+    padding-top: 120px;
+  }
+}
+.hero__text h2 {
   font-size: 20px;
   width: 207px;
   margin: 0 0 70px;
 }
 @media (min-width: 768px) {
-  .hero-text h2 {
+  .hero__text h2 {
     width: 300px;
     font-size: 36px;
     margin-bottom: 20px;
   }
 }
-@media (min-width: 768px) {
-  .hero-text {
-    padding-top: 120px;
-  }
-}
-
-.hero-price-btn {
+.hero__price-btn {
   text-decoration: none;
   color: white;
   background: #1175BB;
@@ -123,12 +80,52 @@ body {
   font-weight: normal;
 }
 @media (min-width: 768px) {
-  .hero-price-btn {
+  .hero__price-btn {
     width: 255px;
     height: 70px;
     padding: 22px 5px;
     font-size: 23px;
     margin-left: 0;
+  }
+}
+
+.header-contact {
+  height: 32px;
+  background-color: #D6E0EF;
+  display: flex;
+  justify-content: flex-end;
+}
+@media (min-width: 768px) {
+  .header-contact {
+    height: 60px;
+  }
+}
+
+span {
+  padding-left: 5px;
+  margin-top: 10px;
+  margin-right: 32px;
+  font-size: 11px;
+}
+@media (min-width: 768px) {
+  span {
+    padding-left: 10px;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-right: 120px;
+  }
+}
+
+img {
+  width: 12px;
+  height: 9px;
+  margin-top: 12px;
+}
+@media (min-width: 768px) {
+  img {
+    width: 20px;
+    height: 15px;
+    margin-top: 24px;
   }
 }
 
@@ -148,12 +145,23 @@ body {
   display: flex;
   padding: 20px 0;
 }
-.service-box-title {
+@media (min-width: 768px) {
+  .service-box {
+    padding: 30px;
+  }
+}
+.service-box__desc {
   padding-left: 25px;
 }
 .service-box img {
   height: 78px;
   width: 78px;
+}
+@media (min-width: 768px) {
+  .service-box img {
+    height: 104px;
+    width: 104px;
+  }
 }
 .service-box h3 {
   color: #1175BB;
@@ -162,37 +170,36 @@ body {
   padding-bottom: 5px;
   font-weight: 600;
 }
-
 @media (min-width: 768px) {
   .service-box h3 {
     font-size: 25px;
   }
-
-  .service-box {
-    padding: 30px;
+}
+.service-box p {
+  font-size: 13px;
+  margin: 0;
+}
+@media (min-width: 768px) {
+  .service-box p {
+    font-size: 22px;
   }
 }
-.services-section {
+
+.services {
   display: flex;
   justify-content: center;
   padding: 20px 0;
 }
 @media (min-width: 768px) {
-  .services-section {
+  .services {
     padding: 60px 0;
   }
 }
 
 @media (min-width: 768px) {
-  .services-section .container {
+  .services .container {
     display: inline-grid;
     grid-template-columns: auto auto;
-  }
-}
-@media (min-width: 768px) {
-  .service-box img {
-    height: 104px;
-    width: 104px;
   }
 }
 .service-box p {
@@ -206,28 +213,28 @@ body {
 }
 
 @media (min-width: 768px) {
-  .instruction-section .container {
+  .instruction .container {
     display: flex;
     flex-wrap: wrap;
   }
 }
 @media (min-width: 758px) {
-  .instruction-title {
+  .instruction__title {
     text-align: center;
     align-self: center;
     flex: 2;
   }
 }
-.instruction-title img {
+.instruction__title img {
   display: none;
 }
 @media (min-width: 768px) {
-  .instruction-title img {
+  .instruction__title img {
     display: inline-block;
   }
 }
 
-.instruction-title h3 {
+.instruction__title h3 {
   color: #1b77b9;
   font-size: 17px;
   text-align: center;
@@ -235,14 +242,14 @@ body {
   font-weight: normal;
 }
 @media (min-width: 768px) {
-  .instruction-title h3 {
+  .instruction__title h3 {
     font-size: 30px;
     width: 400px;
   }
 }
 
 @media (min-width: 768px) {
-  .instruction-section {
+  .instruction {
     margin-bottom: 30px;
   }
 }
