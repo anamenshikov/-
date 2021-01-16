@@ -329,6 +329,7 @@ footer {
       height: 29px;
       right: 0;
       top: 0;
+      cursor: pointer;
 
       @media (min-width: 768px) {
         width: 52px;
@@ -479,23 +480,23 @@ footer {
 
 .form-button {
   text-align: center;
+  cursor: pointer;
+  width: 169px;
+  height: 46px;
+  border-style: none;
+  border-radius: 50px;
+  color: white;
+  background-color: #1175BB;
+  font-size: 17px;
+  font-weight: 300;
+  outline: none;
+  display: block;
+  margin: 10px auto;
 
-  input {
-    width: 169px;
-    height: 46px;
-    border-style: none;
-    border-radius: 50px;
-    color: white;
-    background-color: #1175BB;
-    font-size: 17px;
-    font-weight: 300;
-    margin-top: 10px;
-
-    @media (min-width: 768px) {
-      width: 255px;
-      height: 70px;
-      font-size: 23px;
-    }
+  @media (min-width: 768px) {
+    width: 255px;
+    height: 70px;
+    font-size: 23px;
   }
 }
 

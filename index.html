@@ -75,7 +75,7 @@
         <div class="modal" id="modal">
             <div class="modal__container" id="modal_container">
                 <i class="form-input__icon closebtn-icon" onclick="closeModal()"></i>
-                <form method="POST" action="" id="form">
+                <form method="POST" action="javascript:void(0);" id="form">
                     <h3>შეავსე ველები:</h3>
                     <div class="form-input">
                         <i class="form-input__icon icon-user"></i>
@@ -93,9 +93,7 @@
                         <i class="form-input__icon icon-telephone"></i>
                         <input type="text" name="telephone" placeholder="ტელეფონი">
                     </div>
-                    <div class="form-button">
-                        <input onclick="notification()" type="submit" value="გაგზავნა">
-                    </div>
+                    <input class="form-button" onclick="notification()" type="submit" value="გაგზავნა">
                 </form>
                 <div id="notification">
                     <div class="processing">

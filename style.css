@@ -330,6 +330,7 @@ footer {
   height: 29px;
   right: 0;
   top: 0;
+  cursor: pointer;
 }
 @media (min-width: 768px) {
   .modal__container .closebtn-icon {
@@ -478,8 +479,7 @@ footer {
 
 .form-button {
   text-align: center;
-}
-.form-button input {
+  cursor: pointer;
   width: 169px;
   height: 46px;
   border-style: none;
@@ -488,10 +488,12 @@ footer {
   background-color: #1175BB;
   font-size: 17px;
   font-weight: 300;
-  margin-top: 10px;
+  outline: none;
+  display: block;
+  margin: 10px auto;
 }
 @media (min-width: 768px) {
-  .form-button input {
+  .form-button {
     width: 255px;
     height: 70px;
     font-size: 23px;
