@@ -75,34 +75,34 @@
         <div class="modal" id="modal">
             <div class="modal__container" id="modal_container">
                 <i class="form-input__icon closebtn-icon" onclick="closeModal()"></i>
-                <div id="form">
+                <form method="POST" action="" id="form">
                     <h3>შეავსე ველები:</h3>
                     <div class="form-input">
-                        <i class="form-input__icon user-icon"></i>
+                        <i class="form-input__icon icon-user"></i>
                         <input type="text" name="firstname" placeholder="სახელი გვარი">
                     </div>
                     <div class="form-input">
-                        <i class="form-input__icon suitcase-icon"></i>
+                        <i class="form-input__icon icon-suitcase"></i>
                         <input type="text" name="company" placeholder="კომპანია">
                     </div>
                     <div class="form-input">
-                        <i class="form-input__icon email-icon"></i>
+                        <i class="form-input__icon icon-email"></i>
                         <input type="email" name="email" placeholder="ელ. ფოსტა">
                     </div>
                     <div class="form-input">
-                        <i class="form-input__icon telephone-icon"></i>
+                        <i class="form-input__icon icon-telephone"></i>
                         <input type="text" name="telephone" placeholder="ტელეფონი">
                     </div>
                     <div class="form-button">
                         <input onclick="notification()" type="submit" value="გაგზავნა">
                     </div>
-                </div>
+                </form>
                 <div id="notification">
                     <div class="processing">
-                        <i class="notif-icon"></i>
+                        <i class="icon-processing"></i>
                     </div>
                     <div class="request-sent">
-                        <i class="tick-icon"></i>
+                        <i class="icon-tick"></i>
                         <span>მოთხოვნა გაგზავნილია!</span>
                     </div>
                 </div>

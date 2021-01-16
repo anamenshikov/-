@@ -1,15 +1,15 @@
 @font-face {
   font-family: firaGO;
-  src: url(assets/fonts/FiraGO-Regular.otf);
+  src: url("assets/fonts/FiraGO-Regular.otf");
 }
 @font-face {
   font-family: firaGO;
-  src: url(assets/fonts/FiraGO-SemiBold.otf);
+  src: url("assets/fonts/FiraGO-SemiBold.otf");
   font-weight: 300;
 }
 @font-face {
   font-family: firaGO;
-  src: url(assets/fonts/FiraGO-Light.otf);
+  src: url("assets/fonts/FiraGO-Light.otf");
   font-weight: 100;
 }
 * {
@@ -100,29 +100,27 @@ body {
     height: 60px;
   }
 }
-
-span {
+.header-contact span {
   padding-left: 5px;
   margin-top: 10px;
   margin-right: 32px;
   font-size: 11px;
 }
 @media (min-width: 768px) {
-  span {
+  .header-contact span {
     padding-left: 10px;
     font-size: 20px;
     margin-top: 20px;
     margin-right: 120px;
   }
 }
-
-img {
+.header-contact img {
   width: 12px;
   height: 9px;
   margin-top: 12px;
 }
 @media (min-width: 768px) {
-  img {
+  .header-contact img {
     width: 20px;
     height: 15px;
     margin-top: 24px;
@@ -202,16 +200,6 @@ img {
     grid-template-columns: auto auto;
   }
 }
-.service-box p {
-  font-size: 13px;
-  margin: 0;
-}
-@media (min-width: 768px) {
-  .service-box p {
-    font-size: 22px;
-  }
-}
-
 @media (min-width: 768px) {
   .instruction .container {
     display: flex;
@@ -414,51 +402,75 @@ footer {
   }
 }
 
-.user-icon {
+.icon-user {
   background-image: url("assets/images/user.svg");
   width: 11px;
 }
 @media (min-width: 768px) {
-  .user-icon {
+  .icon-user {
     width: 21px;
     background-size: contain;
     background-repeat: no-repeat;
   }
 }
-
-.email-icon {
+.icon-email {
   background-image: url("assets/images/email.svg");
   width: 16px;
   height: 13px;
 }
 @media (min-width: 768px) {
-  .email-icon {
+  .icon-email {
     width: 30px;
     height: 21px;
     background-size: contain;
     background-repeat: no-repeat;
   }
 }
-
-.suitcase-icon {
+.icon-suitcase {
   background-image: url("assets/images/suitcase.svg");
   width: 16px;
 }
 @media (min-width: 768px) {
-  .suitcase-icon {
+  .icon-suitcase {
     width: 30px;
     background-size: contain;
     background-repeat: no-repeat;
   }
 }
-
-.telephone-icon {
+.icon-telephone {
   background-image: url("assets/images/telephone.svg");
   width: 14px;
 }
 @media (min-width: 768px) {
-  .telephone-icon {
+  .icon-telephone {
     width: 25px;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+}
+.icon-tick {
+  background-image: url("assets/images/tick.svg");
+  width: 39px;
+  height: 39px;
+  margin-right: 15px;
+}
+@media (min-width: 768px) {
+  .icon-tick {
+    width: 61px;
+    height: 61px;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+}
+.icon-processing {
+  background-image: url("assets/images/notif.svg");
+  width: 73px;
+  height: 73px;
+}
+@media (min-width: 768px) {
+  .icon-processing {
+    width: 112px;
+    height: 112px;
     background-size: contain;
     background-repeat: no-repeat;
   }
@@ -486,41 +498,12 @@ footer {
   }
 }
 
-.notif-icon {
-  background-image: url("assets/images/notif.svg");
-  width: 73px;
-  height: 73px;
-  display: inline-block;
-}
-@media (min-width: 768px) {
-  .notif-icon {
-    width: 112px;
-    height: 112px;
-    background-size: contain;
-    background-repeat: no-repeat;
-  }
-}
-
-.tick-icon {
-  background-image: url(assets/images/tick.svg);
-  width: 39px;
-  height: 39px;
-  margin-right: 15px;
-}
-@media (min-width: 768px) {
-  .tick-icon {
-    width: 61px;
-    height: 61px;
-    background-size: contain;
-    background-repeat: no-repeat;
-  }
-}
-
 .processing {
   display: flex;
   justify-content: center;
 }
-.processing .notif-icon {
+.processing .icon-processing {
+  display: inline-block;
   margin-top: 25px;
 }
 

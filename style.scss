@@ -1,17 +1,17 @@
 @font-face {
   font-family: firaGO;
-  src: url(assets/fonts/FiraGO-Regular.otf);
+  src: url('assets/fonts/FiraGO-Regular.otf');
 }
 
 @font-face {
   font-family: firaGO;
-  src: url(assets/fonts/FiraGO-SemiBold.otf);
+  src: url('assets/fonts/FiraGO-SemiBold.otf');
   font-weight: 300;
 }
 
 @font-face {
   font-family: firaGO;
-  src: url(assets/fonts/FiraGO-Light.otf);
+  src: url('assets/fonts/FiraGO-Light.otf');
   font-weight: 100;
 }
 
@@ -28,7 +28,7 @@ body {
 
 .hero {
   height: 250px;
-  background-image: url("assets/images/header.png");
+  background-image: url('assets/images/header.png');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -99,9 +99,9 @@ body {
   justify-content: flex-end;
 
   @media (min-width: 768px) {
-      height: 60px;
-    }
+    height: 60px;
   }
+
 
   span {
     padding-left: 5px;
@@ -122,10 +122,11 @@ body {
     height: 9px;
     margin-top: 12px;
 
-  @media (min-width: 768px) {
-    width: 20px;
-    height: 15px;
-    margin-top: 24px;
+    @media (min-width: 768px) {
+      width: 20px;
+      height: 15px;
+      margin-top: 24px;
+    }
   }
 }
 
@@ -201,15 +202,6 @@ body {
   }
 }
 
-.service-box p {
-  font-size: 13px;
-  margin: 0;
-
-  @media (min-width: 768px) {
-      font-size: 22px;
-    }
-  }
-
 @media (min-width: 768px) {
   .instruction .container{
     display: flex;
@@ -283,7 +275,7 @@ body {
   height: 65px;
   width: 65px;
   text-align: center;
-  background-image: url("assets/images/playbtn.svg");
+  background-image: url('assets/images/playbtn.svg');
   background-size: cover;
 
   @media (min-width: 768px) {
@@ -332,7 +324,7 @@ footer {
     }
 
     .closebtn-icon {
-      background-image: url("assets/images/closebtn.svg");
+      background-image: url('assets/images/closebtn.svg');
       width: 30px;
       height: 29px;
       right: 0;
@@ -410,49 +402,78 @@ footer {
   }
 }
 
-.user-icon {
-  background-image: url("assets/images/user.svg");
-  width: 11px;
+.icon {
+  &-user {
+    background-image: url('assets/images/user.svg');
+    width: 11px;
 
-  @media (min-width: 768px) {
-    width: 21px;
-    background-size: contain;
-    background-repeat: no-repeat;
+    @media (min-width: 768px) {
+      width: 21px;
+      background-size: contain;
+      background-repeat: no-repeat;
+    }
   }
-}
 
-.email-icon {
-  background-image: url("assets/images/email.svg");
-  width: 16px;
-  height: 13px;
+  &-email {
+    background-image: url('assets/images/email.svg');
+    width: 16px;
+    height: 13px;
 
-  @media (min-width: 768px) {
-    width: 30px;
-    height: 21px;
-    background-size: contain;
-    background-repeat: no-repeat;
+    @media (min-width: 768px) {
+      width: 30px;
+      height: 21px;
+      background-size: contain;
+      background-repeat: no-repeat;
+    }
   }
-}
 
-.suitcase-icon {
-  background-image: url("assets/images/suitcase.svg");
-  width: 16px;
+  &-suitcase {
+    background-image: url('assets/images/suitcase.svg');
+    width: 16px;
 
-  @media (min-width: 768px) {
-    width: 30px;
-    background-size: contain;
-    background-repeat: no-repeat;
+    @media (min-width: 768px) {
+      width: 30px;
+      background-size: contain;
+      background-repeat: no-repeat;
+    }
   }
-}
 
-.telephone-icon {
-  background-image: url("assets/images/telephone.svg");
-  width: 14px;
+  &-telephone {
+    background-image: url('assets/images/telephone.svg');
+    width: 14px;
 
-  @media (min-width: 768px) {
-    width: 25px;
-    background-size: contain;
-    background-repeat: no-repeat;
+    @media (min-width: 768px) {
+      width: 25px;
+      background-size: contain;
+      background-repeat: no-repeat;
+    }
+  }
+
+  &-tick {
+    background-image: url('assets/images/tick.svg');
+    width: 39px;
+    height: 39px;
+    margin-right: 15px;
+
+    @media (min-width: 768px) {
+      width: 61px;
+      height: 61px;
+      background-size: contain;
+      background-repeat: no-repeat;
+    }
+  }
+
+  &-processing {
+    background-image: url('assets/images/notif.svg');
+    width: 73px;
+    height: 73px;
+
+    @media (min-width: 768px) {
+      width: 112px;
+      height: 112px;
+      background-size: contain;
+      background-repeat: no-repeat;
+    }
   }
 }
 
@@ -478,39 +499,12 @@ footer {
   }
 }
 
-.notif-icon {
-  background-image: url("assets/images/notif.svg");
-  width: 73px;
-  height: 73px;
-  display: inline-block;
-  
-  @media (min-width: 768px) {
-    width: 112px;
-    height: 112px;
-    background-size: contain;
-    background-repeat: no-repeat;
-  }
-}
-
-.tick-icon {
-  background-image: url(assets/images/tick.svg);
-  width: 39px;
-  height: 39px;
-  margin-right: 15px;
-
-  @media (min-width: 768px) {
-    width: 61px;
-    height: 61px;
-    background-size: contain;
-    background-repeat: no-repeat;
-  }
-}
-
 .processing {
   display: flex;
   justify-content: center;
 
-  .notif-icon {
+  .icon-processing {
+    display: inline-block;
     margin-top: 25px;
   }
 }
